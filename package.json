@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/lobsterkatie/github-battle#readme",
   "babel": {
-    "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "dependencies": {
+    "prop-types": "^15.6.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
   },
