@@ -1,5 +1,6 @@
 import React from "react";
-import LanguageSelector from "./language-selector.jsx";
+// import LanguageSelector from "./language-selector.jsx";
+import SelectLanguage from "./language-selector.jsx";
 
 export default class Popular extends React.Component {
     constructor(props) {
@@ -26,9 +27,13 @@ export default class Popular extends React.Component {
 
         return (
             <div>
-                <LanguageSelector
+                {/* <LanguageSelector
                   selectedLanguage={this.state.selectedLanguage}
                   onSelect={this.updateLanguage}
+                /> */}
+                <SelectLanguage
+                    selectedLanguage={this.state.selectedLanguage}
+                    onSelect={this.updateLanguage}
                 />
             </div>
         )
