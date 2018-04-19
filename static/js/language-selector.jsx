@@ -54,7 +54,7 @@ import PropTypes from "prop-types";
 
 
 
-export default function SelectLanguage(props) {
+export default function LanguageSelector(props) {
     let languages = ["All", "JavaScript", "Ruby", "Java", "CSS", "Python"];
 
     return (
@@ -95,7 +95,7 @@ export default function SelectLanguage(props) {
 } // end SelectLanguage functional component
 
 
-SelectLanguage.propTypes = {
+LanguageSelector.propTypes = {
     selectedLanguage: PropTypes.string.isRequired,
     onSelect: PropTypes.func.isRequired
 }
