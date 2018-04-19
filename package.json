@@ -2,9 +2,10 @@
   "name": "github-battle",
   "version": "1.0.0",
   "description": "based on the Tyler McGinnis React tutorial",
-  "main": "index.js",
+  "main": "./static/js/index.jsx",
   "scripts": {
-    "watch": "webpack -d --progress --watch"
+    "watch": "webpack -d --progress --watch",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     ]
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
@@ -35,6 +37,7 @@
     "css-loader": "^0.28.11",
     "style-loader": "^0.20.3",
     "webpack": "^4.5.0",
-    "webpack-cli": "^2.0.14"
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
   }
 }
